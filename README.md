@@ -26,7 +26,7 @@ You can install the development version of PCAWGmutations like so:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("PCAWGmutations")
+remotes::install_github("CCICB/PCAWGmutations")
 ```
 
 ## Usage
