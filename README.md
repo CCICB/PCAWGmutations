@@ -9,12 +9,16 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/PCAWGmutations)](https://CRAN.R-project.org/package=PCAWGmutations)
+[![Codecov test
+coverage](https://codecov.io/gh/CCICB/PCAWGmutations/branch/main/graph/badge.svg)](https://app.codecov.io/gh/CCICB/PCAWGmutations?branch=main)
+[![R-CMD-check](https://github.com/CCICB/PCAWGmutations/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/CCICB/PCAWGmutations/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 R package for loading PCAWG data into R as MAF objects.
 
-> **Note** data is streamed from the [CCICB/PCAWGmutationsDB
-> repo](https://github.com/CCICB/PCAWGmutationsDB)
+> **Note** data is streamed from the
+> [**CCICB/PCAWGmutationsDB**](https://github.com/CCICB/PCAWGmutationsDB)
+> repo
 
 ## Installation
 
