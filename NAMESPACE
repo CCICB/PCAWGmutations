@@ -2,3 +2,4 @@
 
 export(pcawg_available)
 export(pcawg_load)
+importFrom(maftools,read.maf)

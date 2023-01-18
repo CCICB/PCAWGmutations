@@ -8,6 +8,8 @@ pcawg_load(cohort, verbose = TRUE)
 }
 \arguments{
 \item{cohort}{abbreviation of PCAWG project. See \code{\link[=pcawg_available]{pcawg_available()}} for valid values (string)}
+
+\item{verbose}{verbose (flag)}
 }
 \value{
 MAF object compatible with maftools
@@ -17,4 +19,5 @@ Load PCAWG maf objects into R. Streams data from \href{https://github.com/CCICB/
 }
 \examples{
 pcawg_load("Biliary-AdenoCA")
+
 }

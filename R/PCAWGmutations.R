@@ -2,10 +2,12 @@
 #' List Available Datasets
 #'
 #' @return a dataframe listing available datasets
-#' @export
-#'
 #' @examples
 #' pcawg_available()
+#'
+#' @importFrom maftools read.maf
+#'
+#' @export
 pcawg_available <- function(){
   path_to_dataset_manifest <- "https://github.com/CCICB/PCAWGmutationsDB/raw/main/inst/extdata/projects.tsv"
   utils::read.csv(path_to_dataset_manifest, sep = "\t", header=TRUE, check.names = FALSE)
@@ -16,12 +18,13 @@ pcawg_available <- function(){
 #' Load PCAWG maf objects into R. Streams data from [PCAWGmutationsDB](https://github.com/CCICB/PCAWGmutations) repo
 #'
 #' @param cohort abbreviation of PCAWG project. See [pcawg_available()] for valid values (string)
-#'
+#' @param verbose verbose (flag)
 #' @return MAF object compatible with maftools
-#' @export
 #'
 #' @examples
 #' pcawg_load("Biliary-AdenoCA")
+#'
+#' @export
 pcawg_load <- function(cohort, verbose = TRUE){
 
   df_available_cohorts <- pcawg_available()
