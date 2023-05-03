@@ -12,6 +12,8 @@ status](https://www.r-pkg.org/badges/version/PCAWGmutations)](https://CRAN.R-pro
 [![Codecov test
 coverage](https://codecov.io/gh/CCICB/PCAWGmutations/branch/main/graph/badge.svg)](https://app.codecov.io/gh/CCICB/PCAWGmutations?branch=main)
 [![R-CMD-check](https://github.com/CCICB/PCAWGmutations/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/CCICB/PCAWGmutations/actions/workflows/R-CMD-check.yaml)
+[![r-universe status
+badge](https://CCICB.r-universe.dev/badges/PCAWGmutations)](https://CCICB.r-universe.dev/ui#package:PCAWGmutations)
 <!-- badges: end -->
 
 R package for loading PCAWG data into R as MAF objects.
@@ -22,11 +24,18 @@ R package for loading PCAWG data into R as MAF objects.
 
 ## Installation
 
-You can install the development version of PCAWGmutations like so:
+Install PCAWGmutations from R-universe like so:
+
+``` r
+# Install PCAWGmutations in R:
+install.packages('PCAWGmutations', repos = c('https://ccicb.r-universe.dev', 'https://cloud.r-project.org'))
+```
+
+Or you can install the development version from github:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("CCICB/PCAWGmutations")
+remotes::install_github("PCAWGmutations")
 ```
 
 ## Usage
