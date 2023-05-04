@@ -8,7 +8,10 @@ Description: R package for loading PCAWG data into R as MAF objects.
 License: MIT + file LICENSE
 Suggests: 
     covr,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    Rhtslib,
+    DNAcopy,
+    zlibbioc
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -16,10 +19,6 @@ RoxygenNote: 7.2.1
 biocViews:
 Imports: 
     maftools
-Suggests:
-    Rhtslib,
-    DNAcopy,
-    zlibbioc
 Remotes:
     PoisonAlien/maftools@72208f2,
     Bioconductor/Rhtslib,
