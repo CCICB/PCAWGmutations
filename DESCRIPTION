@@ -16,4 +16,14 @@ RoxygenNote: 7.2.1
 biocViews:
 Imports: 
     maftools
+Suggests:
+    Rhtslib,
+    DNAcopy,
+    zlibbioc
+Remotes:
+    PoisonAlien/maftools@72208f2,
+    Bioconductor/Rhtslib,
+    chaos66ren/DNAcopy,
+    Bioconductor/zlibbioc
+    
 
