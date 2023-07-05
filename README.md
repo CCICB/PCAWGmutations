@@ -14,7 +14,7 @@ coverage](https://codecov.io/gh/CCICB/PCAWGmutations/branch/main/graph/badge.svg
 [![R-CMD-check](https://github.com/CCICB/PCAWGmutations/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/CCICB/PCAWGmutations/actions/workflows/R-CMD-check.yaml)
 [![r-universe status
 badge](https://CCICB.r-universe.dev/badges/PCAWGmutations)](https://CCICB.r-universe.dev/ui#package:PCAWGmutations)
-\[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8115606.svg)
+\[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8115606.svg)\]
 
 <!-- badges: end -->
 
